@@ -1,0 +1,107 @@
+<html>
+	<head>
+				<title>Menu </title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+		<meta http-equiv="Content-Type2 content="text/html; charset=iso-8859-1">
+		<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<meta name="keywords"content="Información Personal Estudiantes UMG">
+		<meta name="description"content="Plantillas de HTML">
+	</head>
+	
+	<body bgcolor=lightblue>	
+	<center>
+	<body bgcolor="#E9E9E9">
+    <img src="img/anuncio2.jpg" width="900" height="200" >
+<div style="  margin-left: 70px; margin-right: 70px; margin-bottom: 100px; margin-top: 10px;">
+    
+<h2><center><font face="verdana">Bienvenido a la tienda de calzado número 1 en Guatemala</center></h2>
+<br>
+<div >
+	<FONT FACE="Broadway"
+	<FONT SIZE=12 color= "white";><center><strong><P text-align: center> ANDANZAS </P></strong></center></FONT SIZE=12>
+	<br>
+		<div id="header">
+			<ul class="nav">
+			<br>
+			<center>
+				<li><a href="">Conocenos</a>
+					<ul>
+						<li><a href="Mision.html">Mision</a></li>
+						<li><a href="vision.html">Vision</a></li>
+						<li><a href="objetivo.html">Objetivos</a></li>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Productos</a>
+					<ul>
+						<li><a href="commit2.html">Información producto</a></li>
+					</ul>
+				<li><a href="">Contactanos</a>
+					<ul>
+						<li><a href="sedes.html">Sedes</a></li>
+						<li><a href="contactanos.html">Datos de contacto</a></li>
+						<li><a href="videos.html">Video</a></li>
+			</center>
+		</div>
+		<br><br><br>
+		<h2><center><font face="Comic Sans MS">Calzado moderno y cómodo para dama, caballero y niños. Tu estilo favorito aquí. 
+    Variedad en marcas y estilos acorde a todas las necesidades. Tu estilo ideal. Visita nuestro sitio web. 
+    Estilos: Zapatos para dama, Zapatos para caballero, Zapatos para niño.</center></h2>
+</div>
+<img src="img/anuncio3.jpg" width="800" height="150" >
+</center>
+</body>
+	</body>
+</html> 	
